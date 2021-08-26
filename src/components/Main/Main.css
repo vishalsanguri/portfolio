@@ -1,0 +1,262 @@
+.maindiv{
+    background-color: #0e1523;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maindiv1{
+    width: 80vw;
+    min-height: 40px;
+    margin-top: 20px;
+}
+.animatediv{
+    width: 100%;
+    font-size: 4vw;
+    font-family: 'Kaisei Opti', serif;
+    font-weight: 900;
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .animatediv{
+        font-size: 8vw;
+    }
+}
+.bar{
+    margin: 20px 0;
+    width:80vw;
+    height: 2px;
+    background-color: #0e1523;
+}
+.whitebar1{
+    background-color: white;
+    width: 10px;
+    height: 2px;
+    animation: animation1 1s linear infinite ;
+}
+.whitebar2{
+    background-color: white;
+    width: 10px;
+    height: 2px;
+    animation: animation2 1s linear infinite ;
+}
+@keyframes animation1 {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(80vw);
+    }
+}
+@keyframes animation2 {
+    0%{
+        transform: translateX(80vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+/* remove width and height from md2 */
+.maindiv2{
+    width: 80vw;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    background-color: #0e1523;
+    color: white;
+    font-family: 'Allison', cursive;
+    
+    box-shadow: -2px -2px rgba(255, 255, 255, 0.615),2px 2px black;
+    padding: 20px;
+
+}
+@media screen and (max-width:600px) {
+    .maindiv2{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:300px) {
+    .maindiv2{
+        font-size: 3vw;
+    }
+}
+.aboutdiv{
+    font-Size:2.4vw;
+    font-Weight:400;
+}
+.submaindiv2{
+    margin:20px 0 ;
+    width: 10vw;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.submaindiv2:hover{
+    background: url("../images/gradient.jfif") no-repeat;
+}
+@media screen and (max-width:600px) {
+    .aboutdiv{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+    .submaindiv2{
+        width: 18vw;
+    }
+}
+.icons{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.iconsstyle:hover{
+    transform: scale(1.5);
+}
+.maindiv3{
+    width: 80vw;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    background-color: #0e1523;
+    color: white;
+    font-family: 'Allison', cursive;
+    box-shadow: -2px -2px rgba(255, 255, 255, 0.615),2px 2px black;
+    padding: 20px;
+}
+.skillbar{
+    width: 500px;
+    height: 3px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 3px;
+    margin-left: 15px
+}
+@media screen and (max-width:600px)  {
+    .skillbar{
+        width: 200px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 3px;
+        margin-left: 15px
+    }
+}
+.skilldiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillbarin1{
+    width:80%;
+    height: 3px;
+    background: url("../images/gradient.jfif") no-repeat;
+    background-size: cover;
+}
+.skillbarin2{
+    width:90%;
+    height: 3px;
+    background: url("../images/gradient.jfif") no-repeat;
+    background-size: cover;
+}
+.skillbarin3{
+    width:70%;
+    height: 3px;
+    background: url("../images/gradient.jfif") no-repeat;
+    background-size: cover;
+}
+.skillbarin4{
+    width:60%;
+    height: 3px;
+    background: url("../images/gradient.jfif") no-repeat;
+    background-size: cover;
+}
+.maindiv4{
+    width: 80vw;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    background-color: #0e1523;
+    color: white;
+    font-family: 'Allison', cursive;
+    box-shadow: -2px -2px rgba(255, 255, 255, 0.615),2px 2px black;
+    padding: 20px;
+}
+.projectdiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.projectdiv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.minidiv{
+    width: 450px;
+    margin: 20px auto;
+}
+@media screen and (max-width:600px) {
+    .minidiv{
+        width: 230px;
+        font-size: 3vw;
+        margin: auto;
+    }
+}
+.minidivimg1{
+    width: 300px;
+    margin: 20px auto;
+    height: 200px;
+    background: url("../images/weatherimage.PNG") no-repeat;
+    background-size: 300px 200px;
+    border-radius: 10px;
+}
+.minidivimg2{
+    width: 300px;
+    margin: 20px auto;
+    height: 200px;
+    background: url("../images/recipeimage.PNG") no-repeat;
+    background-size: 300px 200px;
+    border-radius: 10px;
+}
+.minidivbutton{
+    width: 100px;
+    height: 20px;
+    background: url("../images/greengradient.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+@media screen and (max-width:600px) {
+    .minidivimg1{
+        width: 200px;
+        margin: 20px auto;
+        height: 200px;
+        background: url("../images/weatherimage.PNG") no-repeat;
+        background-size: 200px 200px;
+        border-radius: 10px;
+    }
+    .minidivimg2{
+        width: 200px;
+        margin: 20px auto;
+        height: 200px;
+        background: url("../images/recipeimage.PNG") no-repeat;
+        background-size: 200px 200px;
+        border-radius: 10px;
+    }
+    .minidivbutton{
+        width: 70px;
+        height: 18px;
+        background: url("../images/greengradient.jpg") no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+    }
+}

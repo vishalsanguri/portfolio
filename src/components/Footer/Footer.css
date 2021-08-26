@@ -1,0 +1,34 @@
+.footerdiv{
+    background-color: #0e1523;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer1{
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 10vw;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 1.1vw;
+}
+.footeritem{
+    width: 300px;
+    margin: 10px 0;
+}
+.copydiv{
+    min-height: 2vw;
+    padding: 10px 10vw;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 1vw;
+}
+@media screen and (max-width:600px) {
+    .footer1{
+        font-size: 2vw;
+    }
+    .copydiv{
+        font-size: 2vw;
+    }
+}

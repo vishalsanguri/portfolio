@@ -1,0 +1,108 @@
+.contactdiv{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.5vw;
+} 
+.divfivefive{
+height: 55%;
+background: url("../images/bluewhite1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.divfourfive{
+    height: 45%;
+
+}
+.contactimage{
+    padding: 5vh 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+}
+.foralldiv{
+    margin-top: 10px;
+    padding:0 40px ;
+    font-family: 'Kaisei Opti', serif;
+}
+.formikdiv{
+    padding: 20px;
+}
+.reviewusdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardformik{
+    width: 60%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: -1px -1px white,1px 1px black;
+    background-color: rgb(245, 245, 245);
+}
+.formdiv{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+.inputfieldsdiv{
+    margin: 10px 0;
+}
+.inputfieldsdiv .inputhere{
+    width: 100%;
+    padding-left: 5px;
+}
+.errordiv{
+    color: red;
+    font-size: .8em;
+    margin: 10px 0;  
+}
+.greencolor{
+    margin: 0 1vw;
+    padding: 3px;
+}
+.redcolor{
+    margin: 0 1vw;
+    padding: 3px;
+}
+.greencolor:hover{
+    background-color: lightgreen
+}
+.redcolor:hover{
+    background-color: rgb(163, 6, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .contactdiv{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        position: relative;
+        font-size: 4vw;
+    } 
+    .cardformik{
+        width: 80%;
+        padding:20px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: -1px -1px white,1px 1px black;
+        background-color: white;
+    }
+}

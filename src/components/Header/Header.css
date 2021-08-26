@@ -1,0 +1,77 @@
+.headerdiv{
+    position: relative;
+    display: flex;
+    background-color:#0e1523;
+    color: white;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+.open{
+    position: absolute;
+    left: 20px;
+}
+.portfolio{
+    position: absolute;
+    right: 20px;
+}
+.portaldiv{
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    width: 250px;
+    background-color: rgb(9, 15, 37);
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+.makeittransparent{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.538);
+}
+.jaadu:hover{
+    background-color: rgba(184, 31, 31, 0.842);
+    border-radius: 3px;
+
+}
+.listclass{
+    margin-top: 50px;
+    height: 80vh;
+}
+.itemlist{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.item{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bar1{
+    height: 2px;
+    background-color: white;
+}
+.item:hover{
+    background: url("../images/gradient.jfif") no-repeat;
+    color: black;
+    border-radius: 10px;
+}
+.closediv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: calc(100vw - 250px);
+}

@@ -1,0 +1,67 @@
+.textimagediv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: white;
+    font-size: 1.2vw;
+}
+.text1div{
+    margin-top: 3vh;
+    padding: 2px;
+    font-family: 'Allison', cursive;
+    /* font-family: 'Kaisei Opti', serif; */
+}
+.myimagediv{
+    width: 200px;
+    height: 150px;
+    background:url("../images/myphoto.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+.myimagediv:hover{
+    box-shadow: -1px -1px rgba(255, 255, 255, 0.87),1px 1px rgba(255, 255, 255, 0.863);
+}
+.headingofresouce{
+    padding: 10px;
+    margin-top: 2vw;
+    color: violet;
+    font-size: 2.5vw;
+    font-family: 'Kaisei Opti', serif;
+}
+.descriptionofresource{
+    color: white;
+    padding: 10px;
+    font-size: 1.2vw;
+    line-height: 4vh;
+    font-family: 'Allison', cursive;
+}
+
+@media screen and (max-width:600px) {
+    .textimagediv{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        font-size: 2vw;
+    }
+    .myimagediv{
+        width: 100px;
+        height: 60px;
+        background:url("../images/myphoto.jpg") no-repeat;
+        background-size: 100% 100%;
+        border-radius: 5px;
+    }
+    .headingofresouce{
+        padding: 10px;
+        margin-top: 2vw;
+        color: violet;
+        font-size: 3vw;
+        font-family: 'Kaisei Opti', serif;
+    }
+    .descriptionofresource{
+        color: white;
+        padding: 10px;
+        font-size: 2vw;
+        line-height: 2vh;
+        font-family: 'Allison', cursive;
+    }
+}
