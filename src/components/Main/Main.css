@@ -216,6 +216,14 @@
     background-size: 300px 200px;
     border-radius: 10px;
 }
+.minidivimg3{
+    width: 300px;
+    margin: 20px auto;
+    height: 200px;
+    background: url("../images/netflic1111111111.PNG") no-repeat;
+    background-size: 300px 200px;
+    border-radius: 10px;
+}
 .minidivimg2{
     width: 300px;
     margin: 20px auto;
@@ -239,6 +247,14 @@
         margin: 20px auto;
         height: 200px;
         background: url("../images/weatherimage.PNG") no-repeat;
+        background-size: 200px 200px;
+        border-radius: 10px;
+    }
+    .minidivimg3{
+        width: 200px;
+        margin: 20px auto;
+        height: 200px;
+        background: url("../images/netflic1111111111.PNG") no-repeat;
         background-size: 200px 200px;
         border-radius: 10px;
     }
