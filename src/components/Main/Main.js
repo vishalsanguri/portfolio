@@ -16,6 +16,9 @@ export default function Main() {
     function openNetflix() {
       window.open("https://vishalsanguri.github.io/Netflix-React/");
     }
+    function openAmazon() {
+      window.open("https://clone-1213c.web.app/");
+    }
     useEffect(() => {
       setHeading(true);
     }, []);
@@ -73,6 +76,18 @@ export default function Main() {
           <div className="aboutdiv">PROJECTS</div>
           <div className="projectdiv">
             <div className="projectdiv1">
+              <div className="minidivimg4"></div>
+              <div className="minidiv">
+                Amazon <br />
+                Tryed to clone Amazon. I am using my own Backend server for
+                authentication and data fetching.
+                <br />
+                <button onClick={openAmazon} className="minidivbutton">
+                  visit
+                </button>
+              </div>
+            </div>
+            <div className="projectdiv1">
               <div className="minidivimg3"></div>
               <div className="minidiv">
                 Netflix <br />
@@ -96,8 +111,8 @@ export default function Main() {
               <div className="minidivimg2"></div>
               <div className="minidiv">
                 Recipe App <br />
-                this app uses api to fetch the data and is fully responsive.{" "}
-                <br />
+                this app uses api to fetch the data and is fully responsive.You
+                can find recipies just by typing the name of food item. <br />
                 <Link to="/recipe">
                   <button className="minidivbutton">visit</button>
                 </Link>
@@ -133,7 +148,7 @@ export default function Main() {
               </div>
             </div>
             <div style={{ marginTop: "5px" }}>
-              REACT : 60%
+              REACT : 75%
               <br />
               <div className="skillbar">
                 <div className="skillbarin4"></div>

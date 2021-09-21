@@ -169,7 +169,7 @@
     background-size: cover;
 }
 .skillbarin4{
-    width:60%;
+    width:75%;
     height: 3px;
     background: url("../images/gradient.jfif") no-repeat;
     background-size: cover;
@@ -224,6 +224,14 @@
     background-size: 300px 200px;
     border-radius: 10px;
 }
+.minidivimg4{
+    width: 300px;
+    margin: 20px auto;
+    height: 200px;
+    background: url("../images/amazon.PNG") no-repeat;
+    background-size: 300px 200px;
+    border-radius: 10px;
+}
 .minidivimg2{
     width: 300px;
     margin: 20px auto;
@@ -255,6 +263,14 @@
         margin: 20px auto;
         height: 200px;
         background: url("../images/netflic1111111111.PNG") no-repeat;
+        background-size: 200px 200px;
+        border-radius: 10px;
+    }
+    .minidivimg4{
+        width: 200px;
+        margin: 20px auto;
+        height: 200px;
+        background: url("../images/amazon.PNG") no-repeat;
         background-size: 200px 200px;
         border-radius: 10px;
     }
