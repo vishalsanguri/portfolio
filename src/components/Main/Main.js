@@ -17,7 +17,7 @@ export default function Main() {
       window.open("https://vishalsanguri.github.io/Netflix-React/");
     }
     function openAmazon() {
-      window.open("https://clone-1213c.web.app/");
+      window.open("https://clone-e4618.web.app/");
     }
     useEffect(() => {
       setHeading(true);
